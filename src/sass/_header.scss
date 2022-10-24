@@ -1,0 +1,39 @@
+.container--header {
+  height: 216px;
+  padding-top: 40px;
+
+  @media screen and (min-width: 1200px) {
+    background-size: 1280px 216px;
+    background-image: url(../images/header_d.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/header_d@2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    background-size: 768px 216px;
+    background-image: url(../images/header_t.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/header_t@2x.jpg);
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 320px;
+    height: 230px;
+    background-size: 320px 230px;
+    background-image: url(../images/header_m.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/header_m@2x.jpg);
+    }
+  }
+}

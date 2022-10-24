@@ -1,0 +1,13 @@
+.logo__img {
+  stroke: #ffffff;
+}
+
+.logo__text {
+  font-size: 30px;
+  line-height: 1.12;
+  color: #ffffff;
+
+  @media screen and (max-width: 767px) {
+    visibility: hidden;
+  }
+}
