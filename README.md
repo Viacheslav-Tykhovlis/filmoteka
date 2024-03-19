@@ -12,7 +12,6 @@ Featuring an adaptive design, Filmoteka offers its users the ability to add film
 - [📥 Installation](#installation)
 - [🏃‍♂️ Usage](#usage)
 - [🤝 Contributing](#contributing)
-- [🔏 License](#license)
 
 ## 🚀 Features
 
@@ -30,7 +29,7 @@ First, ensure that Node.js is installed on your machine. If not, download it fro
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/thisTeam/Filmoteka.git
+git clone https://github.com/Viacheslav-Tykhovlis/filmoteka.git
 ```
 
 Navigate to the project directory:
@@ -65,8 +64,5 @@ We warmly welcome contributions from the community. To contribute:
 4. 💾 Commit your changes to the new branch.
 5. 💌 Submit a pull request.
 
-## 🔏 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 We hope you enjoy using **Filmoteka**. Your feedback and suggestions are welcome!
